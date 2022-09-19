@@ -15,11 +15,13 @@ public class HomePage
     
     @FindBy (xpath="//*[text()='Leave']")
     private WebElement leave;
+	
     
     
     public HomePage(WebDriver driver)
     {
     	PageFactory.initElements(driver,this);
+	    Thread.sleep
     }
     public boolean verifyAdminTab()
     {
