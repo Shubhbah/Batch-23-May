@@ -37,8 +37,13 @@ public class HomePage
     {
     	boolean result2=leave.isDisplayed();
     	return result2;
+        
     }
-
+public boolean verifydetail()
+{
+    boolean result2=leave.isDisplayed();
+    	return result2;
+}
 
 	
 }
